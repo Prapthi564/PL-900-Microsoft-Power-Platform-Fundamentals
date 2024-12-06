@@ -28,7 +28,7 @@ You will be able to complete the following exercises:
 + Exercise 1: Create New Table
 + Exercise 2: Import Data
  
-## High-level lab steps
+### High-level lab steps
 
 To prepare your learning environments you will:
 
@@ -38,11 +38,11 @@ To prepare your learning environments you will:
 - Create Visit table
 - Import Visit data using an Excel spreadsheet
 
-## Prerequisites
+### Prerequisites
 
 - Completion of **Lab 0 - Validate lab environment**
 
-## Things to consider before you begin:
+### Things to consider before you begin:
 
 - Naming conventions - type names carefully.
 
