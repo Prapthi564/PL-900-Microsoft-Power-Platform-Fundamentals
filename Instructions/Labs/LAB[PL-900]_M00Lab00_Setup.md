@@ -20,7 +20,7 @@ You will be able to complete the following exercise:
 
 ## Exercise 1 : SetUp Environment
 
-## Task 1: Acquire your Microsoft Power Platform trial tenant
+### Task 1: Acquire your Microsoft Power Platform trial tenant
 
 1. Sign up for Power Apps using the Power Apps Trial link below
    ```
@@ -51,7 +51,7 @@ You will be able to complete the following exercise:
 
     ![Ask Later](./media/lab0-2.png)
 
-## Task 2: Create environment
+### Task 2: Create environment
 
 1. Go to the Power Platform Admin Center using the following URL
 
