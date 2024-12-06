@@ -147,4 +147,4 @@ In this lab you have covered the following:
 
 - Building a Power BI report and dashboard that visualizes data about campus visits.
    
-### You have successfully completed the lab
+### Congratulations!! You have successfully completed all the labs.
