@@ -54,7 +54,7 @@ Once you're ready to dive in, your virtual machine and **Lab Guide** will be rig
 
    ![](./media/i3.jpg)  
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
 
 In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
 
