@@ -24,7 +24,7 @@ We will follow the below outline to design the canvas app:
 
 - Use Copilot to modify the supporting table structure
 
-## Exercise 1: Use Copilot to build a college visits application.
+## Exercise 1: Use Copilot to build a college visits application
 
 In this exercise, you will create a canvas app by connecting to an Campus visits table.
 
