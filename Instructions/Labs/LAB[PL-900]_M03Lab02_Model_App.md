@@ -66,24 +66,23 @@ Both will be integrated to the model-driven app for a better user-experience.
 
    ![](media/lab3-1n.png)
 
-
    ![](media/lab3-2n.png)
 
 5. On the right side of the screen on the Properties panel, select the **Display Name** field, and change it to **Main Information**.
 
 6. Select the **Table Columns** from the left navigation pane and add the following fields below the **Owner** field by dragging columns to the form or simply clicking column names:
 
-	1. **Visitor**
+	1. **Visitor (1)**
 
-	1. **Scheduled Start**
+	1. **Scheduled Start (2)**
 
-	1. **Scheduled End**
+	1. **Scheduled End (3)**
 
-	1. **Actual Start**
+	1. **Actual Start (4)**
 
-	1. **Actual End**
+	1. **Actual End (5)**
 
-7. Drag the **Code** column and drop it in the form header.
+7. Drag the **Code (6)** column and drop it in the form header.
 
 	The header is the top right area of the form. You may need to collapse the Properties panel on the right side of the screen to see the field on the form.
 
@@ -139,7 +138,7 @@ Now, we will clone the view to create a new view for today’s visits.
 
 3. Select **Edit filters** link in the Properties panel.
 
-4. Select **Add**, select **Add row**.
+4. Select **+ Add**, select **Add row**.
 
 5. Select **Scheduled Start** as a field, then select **Today** as the condition in the drop-down.
 
@@ -177,7 +176,7 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 5. After your new model-driven application loads, select the **+ Add Page** button.
 
-6. On the Add Page screen, choose **Dataverse table**, and then select the **Next** button.
+6. On the Add Page screen, choose **Dataverse table**.
 
 7. Add the following tables:
 
@@ -211,7 +210,7 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 	1. Provide **First Name** as John and **Last Name** as Doe.
 
-	1. Provide your personal email as **Email**. This will be used in a future lab where you will receive an email.
+	1. Provide your **personal email** as **Email**. This will be used in a future lab where you will receive an email.
 
 	1. Click **Save & Close**.
 
@@ -233,9 +232,9 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 		1. **Scheduled End**: select tomorrow’s date and 3:30 PM as end time
 
-- Click **Save & Close**. This will create the Visit and you should be able to see it on the Active Visits View.
+1. Click **Save & Close**. This will create the Visit and you should be able to see it on the Active Visits View.
 
-- Change view to **Today’s Visits** by using the drop down next to **Active Visits**. You should no longer see the new visit in the view, since it is scheduled for tomorrow.
+1. Change view to **Today’s Visits** by using the drop down next to **Active Visits**. You should no longer see the new visit in the view, since it is scheduled for tomorrow.
 
 4. You may add more test records.
 
@@ -246,9 +245,10 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 You have created and configured your first model-driven app.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+      
+   - If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="cc68b724-6189-4c55-8c93-0de56b3c08d2" />
 

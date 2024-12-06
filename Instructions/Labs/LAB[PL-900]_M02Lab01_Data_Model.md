@@ -38,7 +38,7 @@ To prepare your learning environments you will:
 
 - Refer to the following image for the metadata description (tables and relationships).
 
-  ![data model document](../../Allfiles/CampusManagement.png)
+  ![data model document](../../Allfiles/Labs/CampusManagement.png)
 - Create Visit table
 - Import Visit data using an Excel spreadsheet
 
@@ -66,19 +66,19 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. Sign into [https://make.powerapps.com](https://make.powerapps.com/) (if you are not already signed in)
 
-1. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
+1. Select your **Practice<inject key="DeploymentID" enableCopy="false"/> (1)** environment at the top right if it is not already selected.
 
-1. Using the navigation on the left select **Tables**.
+1. Navigate to **Tables (2)** left from left pane.
 
-1. Select **+ New table** and choose **Table (advanced properties)**. 
+1. Select **+ New table (3)** and choose **Table (advanced properties) (4)**. 
 
    ![](media/lab1-1z.png)
 
-1. Enter `Visit` for **Display Name**. Leave other fields at default.
+1. Enter `Visit`(1) for **Display Name**. Leave other fields at default.
 
     ![](media/lab1-2z.png)
 
-1. Select **Save**.
+1. Select **Save (2)**.
 
 1. Under the **Schema** section, select **Columns**.
 
@@ -88,73 +88,73 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Select **+ New column**.
 
-	- Enter `Scheduled Start` for **Display name**.
+	- Enter `Scheduled Start`(1) for **Display name**.
 
-	- Select **Date and Time** for **Data type**.
+	- Select **Date and Time (2)** for **Data type**.
 
-	- In **Required**, select **Business required**.
+	- In **Required**, select **Business required (3)**.
 
-	- Expand **Advanced options**.
+	- Expand **Advanced options (4)**.
 
-	- In **Time zone adjustment**, select **Time zone independent**.
+	- In **Time zone adjustment**, select **Time zone independent (5)**.
 
-	- Select **Save**.
+	- Select **Save (6)**.
 
-    ![](media/lab1-4z.png)
+         ![](media/lab1-4z.png)
 
 1. Create Scheduled End column
 
 	- Click **+ New column**.
 
-	- Enter `Scheduled End` for **Display name**.
+	- Enter `Scheduled End` (1) for **Display name**.
 
-	- Select **Date and Time** for **Data type**.
+	- Select **Date and Time (2)** for **Data type**.
 
-	- In **Required**, select **Business required**.
+	- In **Required**, select **Business required (3)**.
 
-	- Expand **Advanced options**.
+	- Expand **Advanced options (4)**.
 
-	- In **Time zone adjustment**, select **Time zone independent**.
+	- In **Time zone adjustment**, select **Time zone independent (5)**.
 
-	- Select **Save**.
+	- Select **Save (6)**.
 
-    ![](media/lab1-5z.png)
+         ![](media/lab1-5z.png)
 
 1. Create Actual Start column
 
 	- Click **+ New column**.
 
-	- Enter `Actual Start` for **Display name**.
+	- Enter `Actual Start` (1) for **Display name**.
 
-	- Select **Date and Time** for **Data type**.
+	- Select **Date and Time (2)** for **Data type**.
 
-	- In **Required**, leave this as **Optional.**
+	- In **Required**, leave this as **Optional (3)**.
 
-	- Expand **Advanced options**.
+	- Expand **Advanced options (4)**.
 
-	- In **Time zone adjustment**, select **Time zone independent**.
+	- In **Time zone adjustment**, select **Time zone independent (5)**.
 
-	- Select **Save**.
+	- Select **Save (6)**.
 
-    ![](media/lab1-6z.png)
+         ![](media/lab1-6z.png)
 
 1. Create Actual End column
 
 	- Click **+ New column**.
 
-	- Enter `Actual End` for **Display name**.
+	- Enter `Actual End` (1) for **Display name**.
 
-	- Select **Date and Time** for **Data type**.
+	- Select **Date and Time (2)** for **Data type**.
 
-	- In **Required**, leave this as **Optional**.
+	- In **Required**, leave this as **Optional (3)**.
 
-	- Expand **Advanced options**.
+	- Expand **Advanced options (4)**.
 
-	- In **Time zone adjustment**, select **Time zone independent**.
+	- In **Time zone adjustment**, select **Time zone independent (5)**.
 
-	- Select **Save**.
+	- Select **Save (6)**.
 
-    ![](media/lab1-7z.png)
+         ![](media/lab1-7z.png)
 
 1. Create Code column
 
@@ -166,25 +166,25 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Select **Save**.
 
-    ![](media/lab1-8zn.png)
+         ![](media/lab1-8zn.png)
 
 1. Create Visitor lookup column
 
 	- Click **+ New column**.
 
-	- Enter `Visitor` for **Display name**.
+	- Enter `Visitor` (1) for **Display name**.
 
-	- Select **Lookup** > **Lookup** for **Data type**.
+	- Select **Lookup** > **Lookup (2)** for **Data type**.
 
-	- Select **Contact** for the **Related Table**.
+	- Select **Contact (3)** for the **Related Table**.
 
-	- Expand **Advanced options**.
+	- Expand **Advanced options (4)**.
 
-	- Enter `visitor_id` for **Relationship name**.
+	- Enter `visitor_id`(5) for **Relationship name**.
 
-	- Select **Save**.
+	- Select **Save (6)**.
 
-    ![](media/lab1-9z.png)
+         ![](media/lab1-9z.png)
 
 ## Exercise 2: Import Data
 
@@ -198,11 +198,13 @@ We would like to assign each visit a unique number that can be easily entered an
 
 3. Click on the Waffle button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
 
+   ![](media/i1.jpg)
+
 4. Select **+Add new** from the menu and select **Files upload**.
 
 5. Locate and select the **Visits.xlsx** file and click **Open**.
 
- **Note:** This file is located in the **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles** folder on your machine.
+   **Note:** This file is located in the **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles** folder on your machine.
  
 ### Task 2: Create a dataflow
 
@@ -210,7 +212,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
-3. Using the navigation on the left, select **Tables**.
+3. Now navigate to **Tables** from left pane.
 
 4. Locate and open the **Visit** table you created in the previous exercise.
 
@@ -245,15 +247,13 @@ We would like to assign each visit a unique number that can be easily entered an
 	| crxxx_ScheduledEnd   | scheduled end   |
 	| crxxx_ScheduledStart | scheduled start |
 
-    ![](media/lab1-10z.png)
+       ![](media/lab1-10z.png)
 
 16. Select **Next**.
 
-17. Select **Refresh manually**.
+17. Select **Refresh manually** and Click on **Publish**.
 
-18. Click **Publish**.
-
-**Note:** It can take several minutes for your data to import into your table. Don’t worry if you get a few errors, that is normal, and will not impact the rest of the course.
+    **Note:** It can take several minutes for your data to import into your table. Don’t worry if you get a few errors, that is normal, and will not impact the rest of the course.
 
 19. Under **Visit columns and data** section, click on drop-down button **more** select the following, and click on **save**.
 
@@ -282,9 +282,10 @@ We would like to assign each visit a unique number that can be easily entered an
 You have successfully created a new table and imported data.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+      
+   - If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="92fc1720-0f2b-42f8-9718-4e9301f3f7c4" />
 
