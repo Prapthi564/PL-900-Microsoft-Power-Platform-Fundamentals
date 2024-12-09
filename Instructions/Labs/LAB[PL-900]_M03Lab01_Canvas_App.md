@@ -12,7 +12,7 @@ Throughout this course, you will build applications and perform automation to en
 
 ## Lab objective
 
-You will be able to complete the following exercises:
+You will be able to complete the following exercise:
 
 + Exercise 1: Create Visits Canvas app
 
