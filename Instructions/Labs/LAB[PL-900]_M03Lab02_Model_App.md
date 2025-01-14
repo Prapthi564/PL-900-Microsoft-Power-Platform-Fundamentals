@@ -10,14 +10,15 @@ Campus administration would like to modernize their visitor registration system 
 
 Throughout this course, you will build applications and perform automation to enable the Bellows College administration and security personnel to manage and control access to the buildings on campus.
 
-In this lab, you will build a Power Apps model-driven app to allow the backoffice campus staff to manage visit records across the entire campus.
+In this lab, you will build a Power Apps model-driven app to allow the back office campus staff to manage visit records across the entire campus.
 
 ## Lab objectives
 
 You will be able to complete the following exercises:
 
-+ Exercise 1: Customize Views and Forms
-+ Exercise 2: Create Model-driven app
+- Exercise 1: Customize Views and Forms
+
+- Exercise 2: Create a Model-driven app
 
 ## High-level lab steps
 
@@ -35,22 +36,25 @@ We will work with the following components:
 
 - **Forms**: This is where the user creates/updates new rows in the tables.
 
-Both will be integrated to the model-driven app for a better user-experience.
+Both will be integrated into the model-driven app for a better user experience.
 
 ## Prerequisites
 
 - Completion of **Lab 0 - Validate lab environment**
+
 - Completion of **Lab 1 - Data Modeling**
 
 ## Things to consider before you begin
 
 - What changes should we make to improve the user experience?
+
 - What should we include in a model-driven app based on the data model we have built?
+
 - What customizations can be made on the sitemap of a model-driven app?
 
 ## Exercise 1: Customize Views and Forms
 
-In this exercise, you will customize views and forms of the custom created tables that will be used in the model-driven app.
+In this exercise, you will customize views and forms of the custom-created tables that will be used in the model-driven app.
 
 ### Task 1: Edit Visit Form
 
@@ -60,7 +64,7 @@ In this exercise, you will customize views and forms of the custom created table
 
 3. Using the navigation on the left, select **Tables**, and click to open your **Visit** table.
 
-   >Note: If you do not see the Visit table, make sure you are in the correct environment (Step 2).
+   > **Note:** If you do not see the Visit table, make sure you are in the correct environment (Step 2).
 
 4. Under the **Data experiences** section, select **Forms** and click to open the Information form with **Main** form type.
 
@@ -98,9 +102,9 @@ In this exercise, you will customize views and forms of the custom created table
 
    ![](media/lab3-5n.png)
 
-10. Select the **Save and publish** at the top right and wait for for the publishing to complete.
+10. Select the **Save and publish** at the top right and wait for the publishing to complete.
 
-11. If the edit view opened in a new browser tab or window, close it. Otherwise, click **Back** at the top left of the screen. You should now be back to the Visit tables Forms.
+11. If the edit view opens in a new browser tab or window, close it. Otherwise, click **Back** at the top left of the screen. You should now be back to the Visit Tables Forms.
 
 12. Using the breadcrumbs in the upper left (Tables>Visit>Forms). Select **Visit** to return to the **Visit** table main screen.
 
@@ -128,7 +132,7 @@ In this task, we will modify the default Active Visits view and create a new vie
 
 6. Select the **Save and publish** and wait for the publishing to complete.
 
-### Task 3: Create new view for today’s visits
+### Task 3: Create a new view for today’s visits
 
 Now, we will clone the view to create a new view for today’s visits.
 
@@ -150,7 +154,7 @@ Now, we will clone the view to create a new view for today’s visits.
 
 8. Add **Actual Start** and **Actual End** fields to the view.
 
-   >**Note:** Since we no longer filter on the view status, we will get all today’s visits including completed ones. These fields will help to differentiate completed visits and visits in progress.
+   > **Note:** Since we no longer filter on the view status, we will get all today’s visits including completed ones. These fields will help to differentiate completed visits and visits in progress.
 
 9. Select the **Save and Publish** and wait for the publishing to complete.
 
@@ -160,7 +164,7 @@ In this exercise, you will create a model-driven app, customize the sitemap, and
 
 For simplicity and time’s sake, we will not be addressing some of the Visit columns in this lab.
 
-### Task 1: Create app
+### Task 1: Create an app
 
 1. Sign into [https://make.powerapps.com](https://make.powerapps.com/) (if you are not already signed in).
 
@@ -204,7 +208,7 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 	1. Select the **Play** button, the new app will load in a new tab.
 
-2. Create new Contact
+2. Create a new Contact
 
 	1. The app should open to the **My Active Contacts** view. If it does not, select Contacts on the left-hand navigation.
 
@@ -218,13 +222,13 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 	1. You should now see the created contact on the **My Active Contacts** view.
 
-3. Create new Visit
+3. Create a new Visit
 
 	1. Select **Visits** from the left-hand navigation of the sitemap.
 
 	1. Click **+ New**.
 
-	1. Enter the fields as following
+	1. Enter the fields as follows:
 
 		1. **Name**: New test visit
 
@@ -232,11 +236,11 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 		1. **Scheduled Start**: select tomorrow’s date and 2:00 PM as start time
 
-		1. **Scheduled End**: select tomorrow’s date and 3:30 PM as end time
+		1. **Scheduled End**: select tomorrow’s date and 3:30 PM as the end time
 
 1. Click **Save & Close**. This will create the Visit and you should be able to see it on the Active Visits View.
 
-1. Change view to **Today’s Visits** by using the drop down next to **Active Visits**. You should no longer see the new visit in the view, since it is scheduled for tomorrow.
+1. Change view to **Today’s Visits** by using the drop down next to **Active Visits**. You should no longer see the new visit in the view since it is scheduled for tomorrow.
 
 4. You may add more test records.
 
@@ -263,6 +267,8 @@ You have created and configured your first model-driven app.
 In this lab you have covered the following:
 
 - Customize Views and Forms
-- Create Model-driven app
+- Create a Model-driven app
 
 ### You have successfully completed the lab
+
+
