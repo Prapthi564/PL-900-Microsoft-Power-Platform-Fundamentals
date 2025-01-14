@@ -25,8 +25,9 @@ Finally, you will import sample data into Microsoft Dataverse.
 
 You will be able to complete the following exercises:
 
-+ Exercise 1: Create New Table
-+ Exercise 2: Import Data
+- Exercise 1: Create New Table
+
+- Exercise 2: Import Data
  
 ### High-level lab steps
 
@@ -156,11 +157,13 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Click **+ New column**.
 
-	- Enter `Code` for **Display name**.
+	- Enter `Code` **(1)** for **Display name**.
 
-	- Select **Text** for **Data type**.
+	- Select **Text (2)** for **Data type**.
 
-	- Select **Save**.
+	- Select **Text (3)** for **Format**.
+
+	- Select **Save (4)**.
 
          ![](media/lab1-8zn.png)
 
@@ -200,7 +203,7 @@ In this exercise, you will import sample data into the Dataverse database.
 
 5. Locate and select the **Visits.xlsx** file and click **Open**.
 
-   **Note:** This file is located in the **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles** folder on your machine.
+   > **Note:** This file is located in the `C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles` folder on your machine.
  
 ### Task 2: Create a dataflow
 
@@ -243,7 +246,9 @@ In this exercise, you will import sample data into the Dataverse database.
 	| crxxx_ScheduledEnd   | scheduled end   |
 	| crxxx_ScheduledStart | scheduled start |
 
-       ![](media/lab1-10z.png)
+    ![](media/lab1-10z.png)
+
+	> **Note:** If the status is displayed as "Unmapped", select the source column manually and confirm that the status updates to "Mapped".
 
 16. Select **Next**.
 
