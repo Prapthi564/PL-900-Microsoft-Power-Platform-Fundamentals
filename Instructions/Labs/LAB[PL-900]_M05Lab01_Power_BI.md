@@ -63,7 +63,7 @@ In this exercise, you will create a Power BI report based on data from the Excel
 
     >**Note**: If the **Edit** menu item is not visible, select the ellipsis **(...)** and then select **Edit**.
 
-      You have now set up a Power BI service to use for your labs.
+    You have now set up a Power BI service to use for your labs.
 
 ### Task 2: Create Chart and Time Visualizations
 
@@ -101,9 +101,9 @@ In this exercise, you will create a Power BI report based on data from the Excel
 
 1. You should have the report open from the previous task.
 
-2. Select **Pin to a dashboard** on the menu. Depending on the layout you may need to press **...** to show additional menu items.
+2. Select **Pin to a dashboard (1)** on the menu. Depending on the layout you may need to press **...** to show additional menu items.
 
-3. Select **New dashboard** on **Pin to dashboard (1)** prompt.
+3. Select **New dashboard (2)** on **Pin to dashboard** prompt.
 
 4. Enter **Campus Management (3)** as a **Dashboard name**, press **Pin live (4)**.
 
