@@ -70,7 +70,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
    ![](media/lab1-1z.png)
 
-1. Enter `Visit`(1) for **Display Name**. Leave other fields at default.
+1. Enter `Visit` **(1)** for **Display Name**. Leave other fields at default.
 
     ![](media/lab1-2z.png)
 
@@ -84,7 +84,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Select **+ New column**.
 
-	- Enter `Scheduled Start`(1) for **Display name**.
+	- Enter `Scheduled Start` **(1)** for **Display name**.
 
 	- Select **Date and Time (2)** for **Data type**.
 
@@ -102,7 +102,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Click **+ New column**.
 
-	- Enter `Scheduled End` (1) for **Display name**.
+	- Enter `Scheduled End` **(1)** for **Display name**.
 
 	- Select **Date and Time (2)** for **Data type**.
 
@@ -120,7 +120,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Click **+ New column**.
 
-	- Enter `Actual Start` (1) for **Display name**.
+	- Enter `Actual Start` **(1)** for **Display name**.
 
 	- Select **Date and Time (2)** for **Data type**.
 
@@ -138,7 +138,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Click **+ New column**.
 
-	- Enter `Actual End` (1) for **Display name**.
+	- Enter `Actual End` **(1)** for **Display name**.
 
 	- Select **Date and Time (2)** for **Data type**.
 
@@ -168,7 +168,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Click **+ New column**.
 
-	- Enter `Visitor` (1) for **Display name**.
+	- Enter `Visitor` **(1)** for **Display name**.
 
 	- Select **Lookup** > **Lookup (2)** for **Data type**.
 
@@ -176,7 +176,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Expand **Advanced options (4)**.
 
-	- Enter `visitor_id`(5) for **Relationship name**.
+	- Enter `visitor_id` **(5)** for **Relationship name**.
 
 	- Select **Save (6)**.
 
