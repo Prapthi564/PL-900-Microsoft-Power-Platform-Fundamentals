@@ -4,9 +4,7 @@
 
 ## Overview
 
-Bellows College is an educational organization with multiple buildings on
-campus. Campus visitors are currently recorded in paper journals. The
-information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
 
 Campus administration would like to modernize their visitor registration system where access to the buildings is controlled by security personnel and all visits are required to be pre-registered and recorded by their hosts.
 
@@ -18,8 +16,9 @@ In this lab, you will build a Power BI report and dashboard that visualizes data
 
 You will be able to complete the following exercises:
 
-+ Exercise 1: Create Power BI Report
-+ Exercise 2: Create Power BI Dashboard
+- Exercise 1: Create Power BI Report
+
+- Exercise 2: Create Power BI Dashboard
 
 ## High-level lab steps
 
@@ -27,7 +26,7 @@ We will follow the below steps to design and create a Power BI dashboard:
 
 -   Create a report with various visualizations of the campus visits information
 
--   Utilize a user natural language query to build additional visualizations
+-   Utilize a user-natural language query to build additional visualizations
 
 ## Prerequisites
 
@@ -36,7 +35,7 @@ We will follow the below steps to design and create a Power BI dashboard:
 
 ## Exercise 1: Create Power BI Report
 
-In this exercise, you will create a Power BI report based on data the Excel spreadsheet we leveraged in a previous exercise.
+In this exercise, you will create a Power BI report based on data from the Excel spreadsheet we leveraged in a previous exercise.
 
 ### Task 1: Prepare Power BI service
 
@@ -44,7 +43,7 @@ In this exercise, you will create a Power BI report based on data the Excel spre
 
 1.  Open a new tab and navigate to <https://app.powerbi.com/> and sign in if needed.
    
-1.  If prompted with "Lets get you started", click on **Continue**.
+1.  If prompted with "Let's get you started", click on **Continue**.
 
 1.  For **Phone number**, enter `0123456789` and select **Get Started**.
 
@@ -54,7 +53,7 @@ In this exercise, you will create a Power BI report based on data the Excel spre
 
 1.  Select **Upload** then **Browse**.
 
-1.  Locate and select the **visits.pbix** file you have downloaded earlier. 
+1.  Locate and select the **visits.pbix** file you downloaded earlier. 
 
 1.  Once the data load is complete, select the **visits** report.
 
@@ -64,8 +63,7 @@ In this exercise, you will create a Power BI report based on data the Excel spre
 
     >**Note**: If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
 
-      You have now setup Power BI service to use for your labs.
-
+      You have now set up a Power BI service to use for your labs.
 
 ### Task 2: Create Chart and Time Visualizations
 
@@ -79,7 +77,7 @@ In this exercise, you will create a Power BI report based on data the Excel spre
 
 5.  Click on the report outside of the pie chart to deselect it and select **stacked column chart** in **Visualizations** pane.
 
-6.  Press the drop-down arrow beside **bc_Visit** in the Fields pane. Drag the **Visit** field and drop it into **Y-axis** target box.
+6.  Press the drop-down arrow beside **bc_Visit** in the Fields pane. Drag the **Visit** field and drop it into the **Y-axis** target box.
 
 7.  Drag **Start** field and drop it into **X-axis** target box.
 
@@ -89,12 +87,11 @@ In this exercise, you will create a Power BI report based on data the Excel spre
 
 10. Test the report interactivity:
 
-    1.  Click various building slices on the pie chart and observe changes on the time report.
+    1.  Click various building slices on the pie chart and observe changes in the time report.
 
-    2.  Click on the column chart. Press the down arrow to turn on **Drill
-        down** mode (or right click on the chart and select **Drill down**), then click a column to drill down to the next level (days).
+    2.  Click on the column chart. Press the down arrow to turn on **Drill down** mode (or right-click on the chart and select **Drill down**), then click a column to drill down to the next level (days).
 
-    3.  Drill up and down and select various bars on the time column chart to observe changes on the pie report.
+    3.  Drill up and down and select various bars on the time column chart to observe changes in the pie report.
 
 11. Save work in progress by pressing **Save**.
 
@@ -114,7 +111,7 @@ In this exercise, you will create a Power BI report based on data the Excel spre
 
 5.  A pop-up will prompt you that the dashboard has been created. Select **Go to dashboard**.
 
-6.  Test interactivity of the pie and bar charts displayed.
+6.  Test the interactivity of the pie and bar charts displayed.
 
 ### Task 2: Add Visualizations Using Natural Language
 
