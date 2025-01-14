@@ -10,22 +10,22 @@ The **PL-900 Microsoft Power Platform Fundamentals Workshop** introduces you to 
 
 This lab is designed to equip participants with hands-on experience in exploring Microsoft Power Platform tools, such as Power Apps, Power Automate, and Power BI, to create low-code apps, automate workflows, and visualize data effectively.
 
--   **Validate lab environment** : Ensure your environment is set up correctly to work with Power Platform tools.
--   **Data Modeling** : Learn how to create and manage data models within the Power Platform.
--   **How to build a canvas app** : Design and develop a low-code canvas app for a specific business use case.
--   **How to build a model-driven app** : Create a model-driven app to manage and display structured business data.
--   **Build a canvas app using Copilot** : Explore how to use Power Apps Copilot to accelerate app development.
--   **How to build an automated solution** : Automate workflows and processes using Power Automate.
--   **How to build a simple dashboard** : Visualize data insights by creating a simple Power BI dashboard.
+- **Validate lab environment:** Ensure your environment is set up correctly to work with Power Platform tools.
+- **Data Modeling:** Learn how to create and manage data models within the Power Platform.
+- **How to build a canvas app:** Design and develop a low-code canvas app for a specific business use case.
+- **How to build a model-driven app:** Create a model-driven app to manage and display structured business data.
+- **Build a canvas app using Copilot:** Explore how to use Power Apps Copilot to accelerate app development.
+- **How to build an automated solution:** Automate workflows and processes using Power Automate.
+- **How to build a simple dashboard:** Visualize data insights by creating a simple Power BI dashboard.
   
 ## Prerequisites
 
 Participants should have the following prerequisites:
 
--   **Basic familiarity with Microsoft 365 :** Understanding of Microsoft 365 tools and navigation in the Microsoft environment.
--   **Fundamental understanding of business processes :** Awareness of common workflows and data management concepts.
--   **No prior coding experience required :**  This lab is beginner-friendly and focuses on low-code solutions.
--   **Access to a Microsoft Power Platform environment :** Ensure you have the necessary permissions and access to work with Power Apps, Power Automate, Power BI, and Power Virtual Agents.
+- **Basic familiarity with Microsoft 365:** Understanding of Microsoft 365 tools and navigation in the Microsoft environment.
+- **Fundamental understanding of business processes:** Awareness of common workflows and data management concepts.
+- **No prior coding experience required:**  This lab is beginner-friendly and focuses on low-code solutions.
+- **Access to a Microsoft Power Platform environment:** Ensure you have the necessary permissions and access to work with Power Apps, Power Automate, Power BI, and Power Virtual Agents.
 
 ## Architechture
 
@@ -39,10 +39,10 @@ The PL-900 workshop architecture integrates key Microsoft Power Platform compone
 
 The architecture for this lab involves several key components:
 
--   **Microsoft Dataverse** : A unified data platform that allows you to securely store and manage data used by business applications. It simplifies data integration and ensures seamless data connectivity across apps.
--   **Power Apps** : A suite of tools for building custom low-code apps. With Canvas Apps, you can design personalized, flexible user interfaces, while Model-Driven Apps are data-driven, offering a structured approach to app development.
--   **Power Automate** : A tool that automates repetitive tasks and workflows between applications and services, reducing manual effort. It can trigger actions based on specific events, such as sending emails, approving requests, or updating data.
--   **Power BI** : A data visualization tool that helps you transform raw data into interactive reports and dashboards. It connects to various data sources to analyze and present insights, enabling informed decision-making.
+- **Microsoft Dataverse:** A unified data platform that allows you to securely store and manage data used by business applications. It simplifies data integration and ensures seamless data connectivity across apps.
+- **Power Apps:** A suite of tools for building custom low-code apps. With Canvas Apps, you can design personalized, flexible user interfaces, while Model-Driven Apps are data-driven, offering a structured approach to app development.
+- **Power Automate:** A tool that automates repetitive tasks and workflows between applications and services, reducing manual effort. It can trigger actions based on specific events, such as sending emails, approving requests, or updating data.
+- **Power BI:** A data visualization tool that helps you transform raw data into interactive reports and dashboards. It connects to various data sources to analyze and present insights, enabling informed decision-making.
   
 ## Getting Started with Lab
 
@@ -58,7 +58,7 @@ Once you're ready to dive in, your virtual machine and **Lab Guide** will be rig
 
 In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
 
-**Note**: Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
+**Note:** Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
  
 ## Exploring Your Lab Resources
  
@@ -76,8 +76,13 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-  ![](./media/i7.jpg)
+   ![](./media/i7.jpg)
 
+## Lab Guide Zoom In/Zoom Out
+ 
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+   ![](./media/zoomoutin.png)
 
 ## Support Contact
  
