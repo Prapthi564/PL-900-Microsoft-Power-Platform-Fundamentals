@@ -71,7 +71,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
    ![](media/lab1-1z.png)
 
-1. Enter `Visit` **(1)** for **Display Name**. Leave other fields at default.
+1. Enter `Visit` **(1)** for **Display Name**. Please just leave other fields by default.
 
     ![](media/lab1-2z.png)
 
@@ -215,7 +215,7 @@ In this exercise, you will import sample data into the Dataverse database.
 
 4. Locate and open the **Visit** table you created in the previous exercise.
 
-5. Using the menu at the top, select the drop-down arrow next to **Import**, select the **Import data**.
+5. Using the menu at the top, select the drop-down arrow next to **Import**, and select the **Import data**.
 
 6. In the **Choose data source** dialog, select **Excel workbook**.
 
@@ -248,13 +248,13 @@ In this exercise, you will import sample data into the Dataverse database.
 
     ![](media/lab1-10z.png)
 
-	> **Note:** If the status is displayed as "Unmapped", select the source column manually and confirm that the status updates to "Mapped".
+	> **Note:** If the status is displayed as **Unmapped**, select the source column manually and confirm that the status updates to **Mapped**.
 
 16. Select **Next**.
 
 17. Select **Refresh manually** and Click on **Publish**.
 
-    **Note:** It can take several minutes for your data to import into your table. Don’t worry if you get a few errors, that is normal, and will not impact the rest of the course.
+    > **Note:** It can take several minutes for your data to import into your table. Don’t worry if you get a few errors, that is normal, and will not impact the rest of the course.
 
 19. Under **Visit columns and data** section, click on drop-down button **more** select the following, and click on **save**.
 
