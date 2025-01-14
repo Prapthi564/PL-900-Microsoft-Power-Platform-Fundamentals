@@ -24,9 +24,9 @@ You will be able to complete the following exercises:
 
 We will follow the below steps to design and create a Power BI dashboard:
 
--   Create a report with various visualizations of the campus visits information
+- Create a report with various visualizations of the campus visits information
 
--   Utilize a user-natural language query to build additional visualizations
+- Utilize a user-natural language query to build additional visualizations
 
 ## Prerequisites
 
@@ -39,59 +39,59 @@ In this exercise, you will create a Power BI report based on data from the Excel
 
 ### Task 1: Prepare Power BI service
 
-1.  You should have a **visits.pbix** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-prod-new\Allfiles**. 
+1. You should have a **visits.pbix** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-prod-new\Allfiles**. 
 
-1.  Open a new tab and navigate to <https://app.powerbi.com/> and sign in if needed.
+1. Open a new tab and navigate to <https://app.powerbi.com/> and sign in if needed.
    
-1.  If prompted with "Let's get you started", click on **Continue**.
+1. If prompted with "Let's get you started", click on **Continue**.
 
-1.  For **Phone number**, enter `0123456789` and select **Get Started**.
+1. For **Phone number**, enter `0123456789` and select **Get Started**.
 
-1.  If prompted again, select **Get Started**
+1. If prompted again, select **Get Started**
 
-1.  Select **My workspace** from the left side navigation.
+1. Select **My workspace** from the left side navigation.
 
-1.  Select **Upload** then **Browse**.
+1. Select **Upload** then **Browse**.
 
-1.  Locate and select the **visits.pbix** file you downloaded earlier. 
+1. Locate and select the **visits.pbix** file you downloaded earlier. 
 
-1.  Once the data load is complete, select the **visits** report.
+1. Once the data load is complete, select the **visits** report.
 
-    >**Note**: **Report** is to be selected, do not select the **Semantic model**.
+    > **Note**: **Report** is to be selected, do not select the **Semantic model**.
 
-1.  Select **Edit**. 
+1. Select **Edit**. 
 
-    >**Note**: If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
+    >**Note**: If the **Edit** menu item is not visible, select the ellipsis **(...)** and then select **Edit**.
 
       You have now set up a Power BI service to use for your labs.
 
 ### Task 2: Create Chart and Time Visualizations
 
-1.  Press the **Pie chart** icon in the **Visualizations** panel to insert a chart.
+1. Press the **Pie chart** icon in the **Visualizations** panel to insert a chart.
 
-2.  Press the drop-down arrow beside **bc_Visit** in the Fields pane. Drag the **Building** field and drop it into **Legend** box.
+2. Press the drop-down arrow beside **bc_Visit** in the Fields pane. Drag the **Building** field and drop it into **Legend** box.
 
-3.  Drag the **Visit** field and drop it into **Values** box.
+3. Drag the **Visit** field and drop it into **Values** box.
 
-4.  Resize the pie chart using corner handles so that all chart components are visible.
+4. Resize the pie chart using corner handles so that all chart components are visible.
 
-5.  Click on the report outside of the pie chart to deselect it and select **stacked column chart** in **Visualizations** pane.
+5. Click on the report outside of the pie chart to deselect it and select **stacked column chart** in **Visualizations** pane.
 
-6.  Press the drop-down arrow beside **bc_Visit** in the Fields pane. Drag the **Visit** field and drop it into the **Y-axis** target box.
+6. Press the drop-down arrow beside **bc_Visit** in the Fields pane. Drag the **Visit** field and drop it into the **Y-axis** target box.
 
-7.  Drag **Start** field and drop it into **X-axis** target box.
+7. Drag **Start** field and drop it into **X-axis** target box.
 
-8.  In the Visualizations pane, click **x** next to **Year** and **Quarter** to leave only **Month** and **Day** totals for the Axis.
+8. In the Visualizations pane, click **x** next to **Year** and **Quarter** to leave only **Month** and **Day** totals for the Axis.
 
-9.  Resize the chart as desired using the corner handles.
+9. Resize the chart as desired using the corner handles.
 
 10. Test the report interactivity:
 
-    1.  Click various building slices on the pie chart and observe changes in the time report.
+    - Click various building slices on the pie chart and observe changes in the time report.
 
-    2.  Click on the column chart. Press the down arrow to turn on **Drill down** mode (or right-click on the chart and select **Drill down**), then click a column to drill down to the next level (days).
+    - Click on the column chart. Press the down arrow to turn on **Drill down** mode (or right-click on the chart and select **Drill down**), then click a column to drill down to the next level (days).
 
-    3.  Drill up and down and select various bars on the time column chart to observe changes in the pie report.
+    - Drill up and down and select various bars on the time column chart to observe changes in the pie report.
 
 11. Save work in progress by pressing **Save**.
 
@@ -99,31 +99,31 @@ In this exercise, you will create a Power BI report based on data from the Excel
 
 ### Task 1: Create Power BI Dashboard
 
-1.  You should have the report open from the previous task.
+1. You should have the report open from the previous task.
 
-2.  Select **Pin to a dashboard** on the menu. Depending on the layout you may need to press **...** to show additional menu items.
+2. Select **Pin to a dashboard** on the menu. Depending on the layout you may need to press **...** to show additional menu items.
 
-3.  Select **New dashboard** on **Pin to dashboard (1)** prompt.
+3. Select **New dashboard** on **Pin to dashboard (1)** prompt.
 
-4.  Enter **Campus Management (3)** as a **Dashboard name**, press **Pin live (4)**.
+4. Enter **Campus Management (3)** as a **Dashboard name**, press **Pin live (4)**.
 
     ![](media/i2.jpg)
 
-5.  A pop-up will prompt you that the dashboard has been created. Select **Go to dashboard**.
+5. A pop-up will prompt you that the dashboard has been created. Select **Go to dashboard**.
 
-6.  Test the interactivity of the pie and bar charts displayed.
+6. Test the interactivity of the pie and bar charts displayed.
 
 ### Task 2: Add Visualizations Using Natural Language
 
-1.  Within your **Campus Management** dashboard, select **Ask a question about your data** bar at the top.
+1. Within your **Campus Management** dashboard, select **Ask a question about your data** bar at the top.
 
-2.  Enter **buildings by number of visits** in Q&A area. A bar chart will be displayed.
+2. Enter **buildings by number of visits** in Q&A area. A bar chart will be displayed.
 
-3.  Select **Pin visual**.
+3. Select **Pin visual**.
 
-4.  Select **Existing dashboard**, select your **Campus Management** dashboard, press **Pin**.
+4. Select **Existing dashboard**, select your **Campus Management** dashboard, press **Pin**.
 
-5.  Click **Exit Q&A**.
+5. Click **Exit Q&A**.
 
       Your **Campus Management** dashboard should be displayed with three visuals on it. You may have to scroll down to see the new Q&A visual.
 
@@ -131,9 +131,10 @@ In this exercise, you will create a Power BI report based on data from the Excel
 
       ![](media/5-powerbi-result.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
       
-   - If validation fails, carefully review the error message and retry the step, ensuring you follow the instructions in the lab guide.
+   - If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="9f380df5-9a68-4cd5-a531-2fe10839b9ad" />
