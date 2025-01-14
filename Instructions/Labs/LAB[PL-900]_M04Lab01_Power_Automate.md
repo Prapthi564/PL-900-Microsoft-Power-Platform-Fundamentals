@@ -62,15 +62,15 @@ In this exercise, you will create a Power Automate flow that implements the requ
 
 9. Populate the trigger conditions for the flow:
 
-    1.  Select **Added (1)** for **Change type**
+   - Select **Added (1)** for **Change type**
 
-    2.  Select **Visits (2)** for **Table name**
+   - Select **Visits (2)** for **Table name**
 
-    3.  Select **Organization (3)** for **Scope**
+   - Select **Organization (3)** for **Scope**
 
-    4.  On the trigger step, click the ellipsis (**... (4)**) and click **Rename**. Rename this trigger **"When a visit is added" (5)**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+   - On the trigger step, click the ellipsis (**... (4)**) and click **Rename**. Rename this trigger **"When a visit is added" (5)**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
 
-    ![img.](media/lab4-4n.png)
+     ![img.](media/lab4-4n.png)
 
 ### Task 2: Create a step to get the visitor row
 
@@ -141,6 +141,8 @@ In this exercise, you will create a Power Automate flow that implements the requ
 
     ![Example of flow steps.](media/lab4-10n.png)
 
+1. Please keep the tab open.
+
 ### Task 4: Validate and test the flow
 
 1.  Open a new tab in your browser and navigate to <https://make.powerapps.com>.
@@ -175,7 +177,7 @@ In this exercise, you will create a Power Automate flow that implements the requ
 
    > **Note**: After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
     
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
       
    - If you receive a success message, you can proceed to the next task.
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
