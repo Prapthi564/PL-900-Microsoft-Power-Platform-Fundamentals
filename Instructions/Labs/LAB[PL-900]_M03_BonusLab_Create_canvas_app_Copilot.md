@@ -50,23 +50,23 @@ In this exercise, you will create a canvas app by connecting to a Campus visits 
  
     ![Screenshot of the Table structure just created](media/blab2.png)
 
-1. To see the table structure, select the table and click on the **View data** button 
+1. To see the table structure, select the **View options (...) (1)** and click on the **View data (2)** button 
 
     ![Screenshot of the Table structure just created](media/blab3.png)
 
-1. In the **What would you like to do next?** box, enter the text: `Add two columns, Time in and Time out in the table. Both should be date and time fields`. 
+1. In the **What would you like to do next?** box, enter the following text: `Add two columns, Time in and Time out in the table. Both should be date and time fields`. 
 
 1. Select the **Go** button or press **Enter**. 
 
     ![Screenshot of the Table structure just created](media/blab4.png)
 
-1. Scroll to the side of the table and verify that the **Time in** and **Time out** columns are created. 
+1. Scroll to the side of the table and verify that the **Time In** and **Time Out** columns are created. 
 
     ![Screenshot of the Table structure just created](media/blab5.png)
 
 1. Since we are logging the visitors in and out time, we no longer need any other visit date fields. 
 
-1. Locate the **Visit Date** field (or equivalent field) and in the **What would you like to do next?** box, enter the text: `Remove the Visit Date Field (or equivalent field)`. 
+1. Locate the **Visit Date** field (or equivalent field) and in the **What would you like to do next?** box, enter the following text: `Remove the Visit Date Field (or equivalent field)`. 
 
    > **Note**: If required, update the field name to be removed from the relevant table name.
 
@@ -74,17 +74,17 @@ In this exercise, you will create a canvas app by connecting to a Campus visits 
 
     ![Screenshot of the Table structure just created](media/blab7.png)
 
-1. Remove any additional date fields that might be present other than **Time in** and **Time out**. 
+1. Remove any additional date fields that might be present other than **Time In** and **Time Out**. 
 
 1. Initially, a field such as a **Purpose** field was formatted with a text data type added. We are going to have Copilot change it to a drop-down (Choice) menu. 
 
-1. In the **What would you like to do next?** enter the following text: Change the Purpose field to a choice menu with the following choices: Campus Tour, Career Fair, Meet with Professor, Student Counseling, Other. 
+1. In the **What would you like to do next?** box, enter the following text: `Change the Purpose field to a choice menu with the following choices: Campus Tour, Career Fair, Meet with Professor, Student Counseling, Other.` 
 
 1. Select the **Go** button. 
 
     ![Screenshot of the Table structure just created](media/blab8.png)
 
-1. Since we also want to capture the building number, in the **What would you like to do next?**, enter: Add a building column. 
+1. Since we also want to capture the building number, in the **What would you like to do next?** box, enter the following text: `Add a building column.`
 
 1. Select the **Go** button. 
 
