@@ -50,7 +50,7 @@ In this exercise, you will create a canvas app by connecting the Visits table yo
 
 4. Select your Dataverse connection.
 
-    > **NOTE:** *If a Dataverse connection does not exist:*
+    > **NOTE:** *If a Dataverse connection does not exist follow the below steps:*
     
     - Select **+ New connection**
     

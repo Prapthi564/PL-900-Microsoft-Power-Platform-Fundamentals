@@ -234,11 +234,11 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 		- **Name**: New test visit
 
-		- **Visitor**: select John Doe
+		- **Visitor**: Select **John Doe**
 
-		- **Scheduled Start**: select tomorrow’s date and 2:00 PM as start time
+		- **Scheduled Start**: Select tomorrow’s date and 2:00 PM as start time
 
-		- **Scheduled End**: select tomorrow’s date and 3:30 PM as the end time
+		- **Scheduled End**: Select tomorrow’s date and 3:30 PM as the end time
 
 1. Click **Save & Close**. This will create the Visit and you should be able to see it on the Active Visits View.
 
