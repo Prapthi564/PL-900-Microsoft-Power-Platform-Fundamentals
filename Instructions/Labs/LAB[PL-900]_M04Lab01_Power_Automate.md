@@ -4,9 +4,7 @@
 
 ## Overview
 
-Bellows College is an educational organization with multiple buildings on
-campus. Campus visitors are currently recorded in paper journals. The
-information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
 
 Campus administration would like to modernize their visitor registration system where access to the buildings is controlled by security personnel and all visits are required to be pre-registered and recorded by their hosts.
 
@@ -18,49 +16,47 @@ In this lab, you will create a Power Automate flow to email a visitor when a vis
 
 You will be able to complete the following exercises:
 
-+ Exercise 1: Create Visit Notification flow
-
+- Exercise 1: Create Visit Notification flow
 
 ## High-level lab steps
 
-The following have been identified as requirements you must implement to
-complete the project:
+The following have been identified as requirements you must implement to complete the project:
 
 - Contacts need to be notified via email when a visit is scheduled.
 
 ## Prerequisites
 
 - Completion of **Lab 0 - Validate lab environment**
+
 - Completion of **Lab 1 - Data Modeling**
+
 - Completion of **Lab 3 - How to build a model-driven app**
+
 - John Doe contact created with a personal email address populated.
 
 ## Exercise 1: Create Visit Notification flow
 
-In this exercise, you will create a Power Automate flow that
-implements the requirement. The visitor should be sent an email that includes
-the unique code assigned to the visit when a visit is created.
+In this exercise, you will create a Power Automate flow that implements the requirement. The visitor should be sent an email that includes the unique code assigned to the visit when a visit is created.
 
 ### Task 1: Create a flow
 
 1.  Navigate to <https://make.powerapps.com>. You may need to reauthenticate - click **Sign in** and follow instructions if needed.
 
-2.  Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is
-    not already selected.
+2.  Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 3.  In the left navigation, select **Flows (1)**.
 
 4.  If prompted, select **Get started**.
 
-5. Click **New flow (2)** and select **Automated cloud flow (3)**.
+5. Click **+ New flow (2)** and select **Automated cloud flow (3)**.
 
    ![img.](media/lab4-3n.png)
 
-6.  Enter `Visit Notification`(1) for **Flow name**.
+6.  Enter `Visit Notification` **(1)** for **Flow name**.
 
 7.  In **Choose your flow's trigger**, search for **Dataverse (2)**.
 
-8. Select the trigger **When a row is added, modified or deleted (3)**, and then select **Create(4)**.
+8. Select the trigger **When a row is added, modified or deleted (3)**, and then select **Create (4)**.
 
    ![img.](media/lab4-2n.png)
 
@@ -72,8 +68,8 @@ the unique code assigned to the visit when a visit is created.
 
     3.  Select **Organization (3)** for **Scope**
 
-    4.  On the trigger step, click the ellipsis (**... (4)**) and click **Rename**. Rename this trigger **"When a visit is added" (5)**.    
-        This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+    4.  On the trigger step, click the ellipsis (**... (4)**) and click **Rename**. Rename this trigger **"When a visit is added" (5)**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+
     ![img.](media/lab4-4n.png)
 
 ### Task 2: Create a step to get the visitor row
@@ -90,19 +86,17 @@ the unique code assigned to the visit when a visit is created.
 
 5.  Select the **Row ID** field 
 
-6. From the Dynamic content list that shows up, search and select for the **Visitor (Value)**. In this step, you are looking up the Contact for the Visit row that was created to trigger this flow. Since email address is part of the Contact table, you will need this information to send the email to the visitor.
+6. From the Dynamic content list that shows up, search and select for the **Visitor (Value)**. In this step, you are looking up the Contact for the Visit row that was created to trigger this flow. Since the email address is part of the Contact table, you will need this information to send the email to the visitor.
 
    ![img.](media/lab4-6n.png)
 
-7. On this action, click the ellipsis (**...**) and click **Rename**. Rename this action **"Get the Visitor"**.                     
-   This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+7. On this action, click the ellipsis (**(...)**) and click **Rename**. Rename this action **"Get the Visitor"**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
 
 ### Task 3: Create a step to send an email to the visitor
 
-1.  Click **+ New step**. This is the step that will send an email to the
-    visitor.
+1.  Click **+ New step**. This is the step that will send an email to the visitor.
 
-2. Search for *mail*, select **Office 365 Outlook (1)** connector and **Send an email (V2)(2)** action.
+2. Search for *mail*, select **Office 365 Outlook (1)** connector and **Send an email (V2) (2)** action.
 
    ![img.](media/lab4-7n.png)
 
@@ -111,13 +105,15 @@ the unique code assigned to the visit when a visit is created.
 4.  Select **Add dynamic content (1)** under the **To** field. 
     
 5. Select **Email (3)** from the Dynamic content list. 
-    >**Note**: Notice that it is beneath the **Get the visitor (2)** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
+
+    > **Note**: Notice that it is beneath the **Get the visitor (2)** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
 
    ![img.](media/lab4-8n.png)
 
 6.  Enter **Your scheduled visit to Bellows College** in the **Subject** field.
 
 7.  Enter the following text in **Email Body**:
+
     >**Note**:  Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,7 +137,7 @@ the unique code assigned to the visit when a visit is created.
 
 11. Select **Save**.
 
-    Leave this flow tab open for the next task. You flow should look approximately like the following:
+    Leave this flow tab open for the next task. Your flow should look approximately like the following:
 
     ![Example of flow steps.](media/lab4-10n.png)
 
@@ -149,8 +145,7 @@ the unique code assigned to the visit when a visit is created.
 
 1.  Open a new tab in your browser and navigate to <https://make.powerapps.com>.
 
-2.  Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is
-    not already selected.
+2.  Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 3.  Click **Apps** and select the **Bellows Campus Management** model-driven app you created earlier.
 
@@ -166,19 +161,19 @@ the unique code assigned to the visit when a visit is created.
 
 7. Complete the Visit record as follows:
 
-    -   **Name:** Test Visit
+    - **Name:** Test Visit
 
-    -   **Visitor:** John Doe
+    - **Visitor:** John Doe
 
-    -   **Scheduled Start:** Tomorrow at 8:00 AM
+    - **Scheduled Start:** Tomorrow at 8:00 AM
 
-    -   **Scheduled End:** Tomorrow at 9:00 AM
+    - **Scheduled End:** Tomorrow at 9:00 AM
 
 8. Select the **Save & Close** button.
 
 9. Navigate to the browser tab with your flow test running. After a short delay, you should see the flow running. This is where you can catch any issues in the flow or confirm that it ran successfully.
 
-   >**Note**: After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
+   > **Note**: After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
       
@@ -190,7 +185,7 @@ the unique code assigned to the visit when a visit is created.
 
 ## Challenges
 
-- Experiment with the formatting on the email. How can you make it look more professional?
+- Experiment with the formatting of the email. How can you make it look more professional?
 
 ## Summary
 
