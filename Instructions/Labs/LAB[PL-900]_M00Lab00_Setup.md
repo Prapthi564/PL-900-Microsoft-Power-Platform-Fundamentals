@@ -68,7 +68,9 @@ You will be able to complete the following exercise:
 
     1. For **Name**, enter **Practice<inject key="DeploymentID" enableCopy="false"/>**
 
-    1. For **Type**, select **Trial** (Do not select the Trial (subscription-based) option).
+    1. For **Type**, select **Trial**.
+
+       > **Note:** Do not select the Trial (subscription-based) option.
 
     1. Change the toggle on **Add a Dataverse data store?** to **Yes**.
 
@@ -91,3 +93,5 @@ In this lab you have covered the following:
 -  Ensured lab environment was correctly set up for working with Power Platform tools.
 
 ### You have successfully completed the lab
+
+Now, click on **Next** from the lower right corner to move on to the next page.
