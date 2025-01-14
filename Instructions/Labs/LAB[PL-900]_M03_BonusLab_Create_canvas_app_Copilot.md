@@ -14,7 +14,7 @@ In this lab, you will use Copilot to create a new canvas application for logging
 
 You will be able to complete the following exercises:
 
-+ Exercise 1: Use Copilot to build a college visits application.
+- Exercise 1: Use Copilot to build a college visits application.
 
 ## High-level lab steps
 
@@ -24,9 +24,9 @@ We will follow the below outline to design the canvas app:
 
 - Use Copilot to modify the supporting table structure
 
-## Exercise 1: Use Copilot to build a college visits application
+## Exercise 1: Use Copilot to build a college Visits application
 
-In this exercise, you will create a canvas app by connecting to an Campus visits table.
+In this exercise, you will create a canvas app by connecting to a Campus visits table.
 
 ### Task 1: Create the initial application
 
@@ -44,13 +44,13 @@ In this exercise, you will create a canvas app by connecting to an Campus visits
 
    >**Note**: When using generative AI, you will not always get the same exact results. It is possible that your table will not exactly match the table created for another environment. 
 
-1. On right hand side, select table structure in Copilot window and then select **Table options**.
+1. On the right-hand side, select table structure in the Copilot window and then select **Table options**.
 
 1. Select **One table** option and then select **Apply**.
  
     ![Screenshot of the Table structure just created](media/blab2.png)
 
-1. To see the table structure, select the table and click on **View data** button 
+1. To see the table structure, select the table and click on the **View data** button 
 
     ![Screenshot of the Table structure just created](media/blab3.png)
 
@@ -68,7 +68,7 @@ In this exercise, you will create a canvas app by connecting to an Campus visits
 
 1. Locate the **Visit Date** field (or equivalent field) and in the **What would you like to do next?** box, enter the text: `Remove the Visit Date Field (or equivalent field)`. 
 
-   >**Note**: If required, update the field name to be removed from relevant table name.
+   > **Note**: If required, update the field name to be removed from the relevant table name.
 
 1. Select the **Go** button. 
 
@@ -76,7 +76,7 @@ In this exercise, you will create a canvas app by connecting to an Campus visits
 
 1. Remove any additional date fields that might be present other than **Time in** and **Time out**. 
 
-1. Initially, a field such as a **Purpose** field was formatted with a text data type was added. We are going to have Copilot change it to a drop-down (Choice) menu. 
+1. Initially, a field such as a **Purpose** field was formatted with a text data type added. We are going to have Copilot change it to a drop-down (Choice) menu. 
 
 1. In the **What would you like to do next?** enter the following text: Change the Purpose field to a choice menu with the following choices: Campus Tour, Career Fair, Meet with Professor, Student Counseling, Other. 
 
@@ -100,7 +100,7 @@ In this exercise, you will create a canvas app by connecting to an Campus visits
 
     ![Screenshot of the app just created](media/blab11.png)
 
-**Congratulations!!** you have used Copilot to create a new app. 
+**Congratulations!!** You have used Copilot to create a new app. 
 
 ## Summary
 
@@ -109,3 +109,5 @@ In this lab you have covered the following:
 -   Used Copilot to create a new app. 
 
 ### You have successfully completed the lab
+
+Now, click on **Next** from the lower right corner to move on to the next page.
