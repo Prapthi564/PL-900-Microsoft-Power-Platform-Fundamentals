@@ -199,3 +199,5 @@ In this lab, you have completed:
 - Created a Power Automate flow to email a visitor when a visit is scheduled.
 
 ### You have successfully completed the lab
+
+Now, click on **Next** from the lower right corner to move on to the next page.

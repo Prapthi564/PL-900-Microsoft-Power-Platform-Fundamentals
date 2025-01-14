@@ -78,15 +78,15 @@ In this exercise, you will customize views and forms of the custom-created table
 
 6. Select the **Table Columns** from the left navigation pane and add the following fields below the **Owner** field by dragging columns to the form or simply clicking column names:
 
-	1. **Visitor (1)**
+	- **Visitor (1)**
 
-	1. **Scheduled Start (2)**
+	- **Scheduled Start (2)**
 
-	1. **Scheduled End (3)**
+	- **Scheduled End (3)**
 
-	1. **Actual Start (4)**
+	- **Actual Start (4)**
 
-	1. **Actual End (5)**
+	- **Actual End (5)**
 
 7. Drag the **Code (6)** column and drop it in the form header.
 
@@ -106,7 +106,7 @@ In this exercise, you will customize views and forms of the custom-created table
 
 11. If the edit view opens in a new browser tab or window, close it. Otherwise, click **Back** at the top left of the screen. You should now be back to the Visit Tables Forms.
 
-12. Using the breadcrumbs in the upper left (Tables>Visit>Forms). Select **Visit** to return to the **Visit** table main screen.
+12. Using the breadcrumbs in the upper left **(Tables > Visit > Forms)**. Select **Visit** to return to the **Visit** table main screen.
 
 ### Task 2: Edit Active Visits view
 
@@ -116,13 +116,13 @@ In this task, we will modify the default Active Visits view and create a new vie
 
 2. Add the following fields to the view by either clicking or dragging and dropping the fields:
 
-	1. **Code**
+	- **Code**
 
-	2. **Visitor**
+	- **Visitor**
 
-	3. **Scheduled Start**
+	- **Scheduled Start**
 
-	4. **Scheduled End**
+	- **Scheduled End**
 
 3. Click the **Created On** column and select **Remove**. Field **Created On** will now be removed from the view.
 
@@ -136,7 +136,7 @@ In this task, we will modify the default Active Visits view and create a new vie
 
 Now, we will clone the view to create a new view for today’s visits.
 
-**IMPORTANT**: Make sure that you do not close the Active Visits view, as we will be leveraging it to create the new today’s visits view.
+**IMPORTANT**: Please make sure that you do not close the Active Visits view, as we will be leveraging it to create the new today’s visits view.
 
 1. Click on the **Save As** button.
 
@@ -148,9 +148,11 @@ Now, we will clone the view to create a new view for today’s visits.
 
 5. Select **Scheduled Start** as a field, then select **Today** as the condition in the drop-down.
 
-6. Select the **…** on the **Status** row and click **Delete** to delete that filter condition.
+6. Select the **(…)** on the **Status** row and click **Delete** to delete that filter condition.
 
 7. Select **Ok** to save the condition. The view is now filtered to show only records where the Scheduled Start date is today.
+
+	> **Note:** The data might not be visible as its availability depends on the date.
 
 8. Add **Actual Start** and **Actual End** fields to the view.
 
@@ -174,11 +176,11 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 4.  Create the Model-Driven Application:
 
-    1. Select **Blank app** in the **Start from** section of the **Create your app** screen.
+    - Select **Blank app** in the **Start from** section of the **Create your app** screen.
 
-    2. Under **Blank app based on Dataverse**, select **Create**.
+    - Under **Blank app based on Dataverse**, select **Create**.
 
-    3. Enter `Bellows Campus Management` for **Name** and select **Create**.
+    - Enter `Bellows Campus Management` for **Name** and select **Create**.
 
 5. After your new model-driven application loads, select the **+ Add Page** button.
 
@@ -186,9 +188,9 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 7. Add the following tables:
 
-	1. Visit
+	- Visit
 
-	1. Contact
+	- Contact
 
 8. After you have selected the 2 tables, select **Add**.
 
@@ -206,37 +208,37 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 1. Start the application
 
-	1. Select the **Play** button, the new app will load in a new tab.
+	- Select the **Play** button, the new app will load in a new tab.
 
 2. Create a new Contact
 
-	1. The app should open to the **My Active Contacts** view. If it does not, select Contacts on the left-hand navigation.
+	- The app should open to the **My Active Contacts** view. If it does not, select Contacts on the left-hand navigation.
 
-	1. Click **+ New** from the top menu.
+	- Click **+ New** from the top menu.
 
-	1. Provide **First Name** as John and **Last Name** as Doe.
+	- Provide **First Name** as John and **Last Name** as Doe.
 
-	1. Provide your **personal email** as **Email**. This will be used in a future lab where you will receive an email.
+	- Provide your **personal email** as **Email**. This will be used in a future lab where you will receive an email.
 
-	1. Click **Save & Close**.
+	- Click **Save & Close**.
 
-	1. You should now see the created contact on the **My Active Contacts** view.
+	- You should now see the created contact on the **My Active Contacts** view.
 
 3. Create a new Visit
 
-	1. Select **Visits** from the left-hand navigation of the sitemap.
+	- Select **Visits** from the left-hand navigation of the sitemap.
 
-	1. Click **+ New**.
+	- Click **+ New**.
 
-	1. Enter the fields as follows:
+	- Enter the fields as follows:
 
-		1. **Name**: New test visit
+		- **Name**: New test visit
 
-		1. **Visitor**: select John Doe
+		- **Visitor**: select John Doe
 
-		1. **Scheduled Start**: select tomorrow’s date and 2:00 PM as start time
+		- **Scheduled Start**: select tomorrow’s date and 2:00 PM as start time
 
-		1. **Scheduled End**: select tomorrow’s date and 3:30 PM as the end time
+		- **Scheduled End**: select tomorrow’s date and 3:30 PM as the end time
 
 1. Click **Save & Close**. This will create the Visit and you should be able to see it on the Active Visits View.
 
@@ -267,8 +269,10 @@ You have created and configured your first model-driven app.
 In this lab you have covered the following:
 
 - Customize Views and Forms
+
 - Create a Model-driven app
 
 ### You have successfully completed the lab
 
+Now, click on **Next** from the lower right corner to move on to the next page.
 
