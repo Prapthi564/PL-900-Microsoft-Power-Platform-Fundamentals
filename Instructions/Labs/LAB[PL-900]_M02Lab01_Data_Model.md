@@ -11,7 +11,7 @@ Campus administration would like to modernize their visitor registration system 
 
 Throughout this course, you will build applications and perform automation to enable the Bellows College administration and security personnel to manage and control access to the buildings on campus.
 
-In this lab you will access your environment, create a Microsoft Dataverse database. You will also create a data model to support the following requirements:
+In this lab, you will access your environment, and create a Microsoft Dataverse database. You will also create a data model to support the following requirements:
 
 - R1 – Track information for scheduled campus visits
 
@@ -35,7 +35,9 @@ To prepare your learning environments you will:
 - Refer to the following image for the metadata description (tables and relationships).
 
   ![data model document](./media/i9.png)
-- Create Visit table
+
+- Create a Visit table
+  
 - Import Visit data using an Excel spreadsheet
 
 ### Prerequisites
@@ -46,11 +48,9 @@ To prepare your learning environments you will:
 
 - Naming conventions - type names carefully.
 
-
 ## Exercise 1: Create New Table
 
-In this exercise, you will create new custom table for Visits.
-
+In this exercise, you will create a new custom table for Visits.
 
 ### Task 1: Create Visit Table and Columns
 
@@ -64,7 +64,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. Select your **Practice<inject key="DeploymentID" enableCopy="false"/> (1)** environment at the top right if it is not already selected.
 
-1. Navigate to **Tables (2)** left from left pane.
+1. Navigate to **Tables (2)** left from the left pane.
 
 1. Select **+ New table (3)** and choose **Table (advanced properties) (4)**. 
 
@@ -80,7 +80,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
     ![](media/lab1-3z.png)
 
-1. Create Scheduled Start column
+1. Create a Scheduled Start column:
 
 	- Select **+ New column**.
 
@@ -98,7 +98,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
          ![](media/lab1-4z.png)
 
-1. Create Scheduled End column
+1. Create a Scheduled End column:
 
 	- Click **+ New column**.
 
@@ -116,7 +116,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
          ![](media/lab1-5z.png)
 
-1. Create Actual Start column
+1. Create an Actual Start column:
 
 	- Click **+ New column**.
 
@@ -134,7 +134,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
          ![](media/lab1-6z.png)
 
-1. Create Actual End column
+1. Create an Actual End column:
 
 	- Click **+ New column**.
 
@@ -152,7 +152,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
          ![](media/lab1-7z.png)
 
-1. Create Code column
+1. Create a Code column:
 
 	- Click **+ New column**.
 
@@ -164,7 +164,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
          ![](media/lab1-8zn.png)
 
-1. Create Visitor lookup column
+1. Create a Visitor lookup column:
 
 	- Click **+ New column**.
 
@@ -184,7 +184,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 ## Exercise 2: Import Data
 
-In this exercise you will import sample data into the Dataverse database.
+In this exercise, you will import sample data into the Dataverse database.
 
 ### Task 1: Load Excel file to OneDrive
 
@@ -196,7 +196,7 @@ In this exercise you will import sample data into the Dataverse database.
 
    ![](media/i1.jpg)
 
-4. Select **+Add new** from the menu and select **Files upload**.
+4. Select **+ Add new** from the menu and select **Files upload**.
 
 5. Locate and select the **Visits.xlsx** file and click **Open**.
 
@@ -268,7 +268,6 @@ In this exercise you will import sample data into the Dataverse database.
 
 	![](media/Mod2-t2-s19b.png)
 	
-
 ### Task 3: Verify Data Import
 
 1. After your data has been imported, use the navigation at the left of the screen to select the **Visit** table again.
@@ -293,3 +292,4 @@ In this lab you have covered the following:
 
 ### You have successfully completed the lab
 
+Now, click on **Next** from the lower right corner to move on to the next page.
