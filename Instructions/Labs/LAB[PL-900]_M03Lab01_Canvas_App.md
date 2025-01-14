@@ -14,7 +14,7 @@ Throughout this course, you will build applications and perform automation to en
 
 You will be able to complete the following exercise:
 
-+ Exercise 1: Create Visits Canvas app
+- Exercise 1: Create Visits Canvas app
 
 ## High-level lab steps
 
@@ -31,11 +31,12 @@ We will follow the below outline to design the canvas app:
 ## Prerequisites
 
 - Completion of **Lab 0 - Validate lab environment**
+
 - Completion of **Lab 1 - Data Modeling**
 
 ## Exercise 1: Create Visits Canvas app
 
-In this exercise, you will create a canvas app by connecting your Visits table you created earlier.
+In this exercise, you will create a canvas app by connecting the Visits table you created earlier.
 
 ### Task 1: Create the Visits app
 
@@ -50,9 +51,13 @@ In this exercise, you will create a canvas app by connecting your Visits table y
 4.  Select your Dataverse connection.
 
     > **NOTE:** *If a Dataverse connection does not exist:*
+    
     > - Select **New Connection**
+    
     > - Locate **Microsoft Dataverse**
+    
     > - Select **Create**
+    
     > - **Sign in** and select **Allow access**
 
     ![](media/lab2-2n.png)
@@ -67,7 +72,7 @@ In this exercise, you will create a canvas app by connecting your Visits table y
 
 7.  After your app is created, On the Welcome to Power Apps Studio screen, check the **Don’t show me this again** box, and then select **Skip**.
 
-8.  After creation has completed, it should look like the image below.
+8.  After the creation has been completed, it should look like the image below.
 
     ![Canvas app created from Visit data.](media/PL-900_lab02_e1_t1.png)
 
@@ -119,7 +124,7 @@ In this task, you will customize the header text on each of the three screens fo
 
 In this task, you will test out your new app.
 
-1. With your application open in the App Designer, click on the **ellipsis (...)** icon, select **Settings (1)**, in the **General** section update the name of your app to **Visits App (2)**, click the **X** to close the settings screen and then select **Save**.
+1. With your application open in the App Designer, click on the **ellipsis (...)** icon, select **Settings (1)**, and in the **General** section update the name of your app to **Visits App (2)**, click the **X** to close the settings screen and then select **Save**.
 
    ![](media/lab2-7n.png)
 
@@ -147,6 +152,9 @@ Congratulations, You have created and configured your first canvas app.
 ## Summary
 
 In this lab you have covered the following:
+
 - Creating a canvas app by connecting your Visits table
 
 ### You have successfully completed the lab
+
+Now, click on **Next** from the lower right corner to move on to the next page.
