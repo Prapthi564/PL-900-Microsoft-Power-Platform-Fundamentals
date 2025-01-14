@@ -40,47 +40,51 @@ In this exercise, you will create a canvas app by connecting the Visits table yo
 
 ### Task 1: Create the Visits app
 
-1.  Navigate to <https://make.powerapps.com>. You may need to reauthenticate - click **Sign in** and follow instructions if needed.
+1. Navigate to <https://make.powerapps.com>. You may need to reauthenticate - click **Sign in** and follow instructions if needed.
 
-2.  Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
+2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 3. If necessary, click the **Home** icon on the left side of the screen. Select **+ Create (1)** and then select **Dataverse (2)**.
 
    ![](media/lab2-1n.png)
 
-4.  Select your Dataverse connection.
+4. Select your Dataverse connection.
 
     > **NOTE:** *If a Dataverse connection does not exist:*
     
-    > - Select **New Connection**
+    - Select **+ New connection**
     
-    > - Locate **Microsoft Dataverse**
+    - Locate **Microsoft Dataverse**
     
-    > - Select **Create**
+    - Select **Create**
     
-    > - **Sign in** and select **Allow access**
+    - **Sign in** and select **Allow access**
 
-    ![](media/lab2-2n.png)
+      ![](media/lab2-2n.png)
 
-    ![](media/lab2-3n.png)    
+      ![](media/lab2-3n.png)    
 
 5. Locate and select the **Visits (1)** table you created in the previous lab.
 
-   ![](media/lab2-4n.png)
+6. Select the **Connect (2)** button in the bottom right corner.
 
-6.  Select the **Connect (2)** button in the bottom right corner.
+    ![](media/lab2-4n.png)
 
-7.  After your app is created, On the Welcome to Power Apps Studio screen, check the **Don’t show me this again** box, and then select **Skip**.
+7. After your app is created, On the Welcome to Power Apps Studio screen, check the **Don’t show me this again** box, and then select **Skip**.
 
-8.  After the creation has been completed, it should look like the image below.
+8. After the creation has been completed, it should look like the image below.
 
     ![Canvas app created from Visit data.](media/PL-900_lab02_e1_t1.png)
 
-9. In the app designer, select the **preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)* Take a look around and see how your app looks out-of-the-box.
+9. In the app designer, select the **Preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)* Take a look around and see how your app looks out-of-the-box.
+
+    ![](media/14125(1).png)
 
 10. Close the app preview by selecting the **X** in the upper right of the screen.
 
-11. On the Did you know? screen, check the **Don’t show me this again** box, and then select **Skip**
+11. On the Did you know? screen, check the **Don’t show me this again** box, and then select **Ok**.
+
+    ![](media/14125(6).png)
 
 Congratulations, you have successfully created a Power App from a Dataverse table. The next step in the process is to tailor the app to match your college's branding. The next series of steps will walk you through providing some extra customization to the app.
 
@@ -88,64 +92,68 @@ Congratulations, you have successfully created a Power App from a Dataverse tabl
 
 In this task, you will customize the header text on each of the three screens for your app (Browse, Detail, and Edit) and change the app theme.
 
-1.  You are on the Browse screen. Select the **Visits** label on the screen.
+1. You are on the Browse screen. Select the **Visits** label on the screen.
 
-1. On the right side of the screen, under the Properties tab, update the **Text** control property to `Bellows College Visits`(1).
+1. On the right side of the screen, under the Properties tab, update the **Text** control property to `Bellows College Visits` **(1)**.
 
    ![](media/lab2-5n.png)
 
 1. In the properties, change the **Font size** to **24 (2)**.
 
-1.  Click in the blank background of the screen to see the updated text on your Browse screen.
+1. Click in the blank background of the screen to see the updated text on your Browse screen.
 
-1.  Using the Tree view in the left-hand navigation, select **DetailScreen**.
+1. Using the Tree view in the left-hand navigation, select **DetailScreen**.
 
-1.  Select the **Visits** label on the screen.
+1. Select the **Visits** label on the screen.
 
-1.  On the right side of the screen, under the properties tab, update the **Text** control property to `Visit Details`.
+1. On the right side of the screen, under the properties tab, update the **Text** control property to `Visit Details`.
 
-1.  Click in the blank background of the screen to see the updated text on your Details screen.
+1. Click in the blank background of the screen to see the updated text on your Details screen.
 
-1.  Using the Tree view in the left-hand navigation, select **EditScreen** (you may need to scroll down to see this on the Tree view).
+1. Using the Tree view in the left-hand navigation, select **EditScreen** (you may need to scroll down to see this on the Tree view).
 
-1.  Select the **Visits** label on the screen.
+1. Select the **Visits** label on the screen.
 
-1.  On the right side of the screen, under the properties tab, replace the text in the **Text** control property with `Edit Details`.
+1. On the right side of the screen, under the properties tab, replace the text in the **Text** control property with `Edit Details`.
 
-1.  Click in the blank background of the screen to see the updated text on your Edit screen.
+1. Click in the blank background of the screen to see the updated text on your Edit screen.
 
-1. Using the Tree view in the left-hand navigation, select the **BrowseScreen**.
+1. Using the Tree view in the left-hand navigation, select the **BrowseScreen (1)**.
 
-1. On the command toolbar, click on the **ellipsis (...) (1)** icon, select the **Theme (2)** button and from the list that appears, select the **Red (3)** theme color.
+1. On the command toolbar, click on the **ellipsis (...) (2)** icon, select the **Theme (3)** button and from the list that appears, select the **Red (4)** theme color.
 
-   ![](media/lab2-6n.png)
+   ![](media/14125(2).png)
 
 ### Task 3: Test your Visits app
 
 In this task, you will test out your new app.
 
-1. With your application open in the App Designer, click on the **ellipsis (...)** icon, select **Settings (1)**, and in the **General** section update the name of your app to **Visits App (2)**, click the **X** to close the settings screen and then select **Save**.
+1. With your application open in the App Designer, click on the **ellipsis (...) (1)** icon, select **Settings (2)**, and in the **General** section update the name of your app to **Visits App (3)**, click the **X** to close the settings screen and then select **Save**.
 
-   ![](media/lab2-7n.png)
+   ![](media/14125(3).png)
 
-2.  Using the navigation on the left, select **BrowseScreen** if not selected.
+   ![](media/14125(4).png)
 
-3.  In the app designer, select the **Preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)*
+   ![](media/14125(5).png)
 
-4.  Once the app opens, in the **Search Items** field, enter the text **Maria**
+2. Using the navigation on the left, select **BrowseScreen** if not selected.
+
+3. In the app designer, select the **Preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)*
+
+4. Once the app opens, in the **Search Items** field, enter the text **Maria**
     *(Notice how the items in the gallery filter based on what is typed in the
     search field).*
 
-5.  Once the **Contoso Suites** record for **Maria Campbell** is displayed,
+5. Once the **Contoso Suites** record for **Maria Campbell** is displayed,
     click on the row to navigate to open the details for that visit. (**Note**: *If more than one Contoso Suites Maria Campbell record is
     displayed, select any of them*)
 
-6.  To edit the record, select the **Pencil Icon** in the upper right corner of
+6. To edit the record, select the **Pencil Icon** in the upper right corner of
     the app.
 
-7.  You can edit the Visit Name here and click the Checkmark icon in the top right to save the change.
+7. You can edit the Visit Name here and click the Checkmark icon in the top right to save the change.
 
-8.  On the top right of the screen, click the **X** Icon to return to the canvas app editor.
+8. On the top right of the screen, click the **X** Icon to return to the canvas app editor.
 
 Congratulations, You have created and configured your first canvas app.
 
