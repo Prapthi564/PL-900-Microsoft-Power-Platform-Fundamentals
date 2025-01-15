@@ -176,14 +176,6 @@ In this exercise, you will create a Power Automate flow that implements the requ
 9. Navigate to the browser tab with your flow test running. After a short delay, you should see the flow running. This is where you can catch any issues in the flow or confirm that it ran successfully.
 
    > **Note**: After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
-    
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-      
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-<validation step="d62bfddd-e1d7-47a4-98d5-b90184613d43" />
 
 ## Challenges
 
