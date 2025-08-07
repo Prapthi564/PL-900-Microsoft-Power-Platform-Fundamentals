@@ -1,4 +1,4 @@
-# Lab 5: How to build a simple dashboard
+# Lab 05: How to build a simple dashboard
 
 ### Estimated Duration: 40 minutes
 
