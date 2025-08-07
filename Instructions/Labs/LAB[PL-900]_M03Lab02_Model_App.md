@@ -1,4 +1,4 @@
-# Lab 3: How to build a model-driven app
+# Lab 03: How to build a model-driven app
 
 ### Estimated Duration: 40 minutes
 
