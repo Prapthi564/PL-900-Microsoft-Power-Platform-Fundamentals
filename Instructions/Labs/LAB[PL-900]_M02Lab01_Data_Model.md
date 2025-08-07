@@ -1,4 +1,4 @@
-# Lab 1: Data Modeling
+# Lab 01: Data Modeling
 
 ### Estimated Duration: 40 minutes
 
@@ -298,3 +298,4 @@ In this lab you have covered the following:
 ### You have successfully completed the lab
 
 Now, click on **Next** from the lower right corner to move on to the next page.
+
