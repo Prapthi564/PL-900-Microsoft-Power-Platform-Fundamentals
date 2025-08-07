@@ -1,4 +1,4 @@
-# Lab 2: How to build a canvas app
+# Lab 02: How to build a canvas app
 
 ### Estimated Duration: 40 minutes
 
