@@ -1,4 +1,4 @@
-# Lab 4: How to build an automated solution
+# Lab 04: How to build an automated solution
 
 ### Estimated Duration: 40 minutes
 
